@@ -13,7 +13,8 @@ public class Main {
 
             try {
                 // 输入题目个数、数字范围
-                System.out.println("Please enter the command?");
+                System.out.println("生成题目请输入 -n 题目数 -r 数字范围"
+                		+ "   校验答案请输入 -e 答题文件路径 -a 正确答案文件路径");
                 Scanner command = new Scanner(System.in);
                 String arr[] = command.nextLine().split("\\s");
 

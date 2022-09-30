@@ -47,7 +47,7 @@ public class problemSet {
                 System.out.println("创建Exercises.txt:");
                 FileOutputStream txtFile = new FileOutputStream(exTXT);
                 PrintStream q = new PrintStream(exTXT);
-                q.println("学号：3216005168    姓名：Lyuthia    成绩：\n");
+                q.println("学号：3220005046    姓名：hbh    成绩：\n");
 
                 for(int i=0;i<txtList.size();i++){
                     System.out.print(">");
@@ -101,7 +101,6 @@ public class problemSet {
 
     /**
      * 生成并输出Grade.txt
-     * -e F:\5168-homework\theFourArithmeticGenerator\Answer.txt -a F:\5168-homework\theFourArithmeticGenerator\submit.txt
      * @param submitPath 为 解题文件 的 路径
      * @param answersPath 为 答案文件 的 路径
      */
